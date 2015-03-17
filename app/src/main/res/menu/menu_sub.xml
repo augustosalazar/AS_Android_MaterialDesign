@@ -1,19 +1,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainActivity">
+    tools:context="com.augustosalazar.androidmaterialdesign.SubActivity">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
-    <item
-        android:id="@+id/navigate"
-        android:title="@string/Next"
-        android:icon="@drawable/ic_chevron_right_grey600_48dp"
-        android:orderInCategory="200"
-        app:showAsAction="always"
-        >
-
-    </item>
 </menu>
